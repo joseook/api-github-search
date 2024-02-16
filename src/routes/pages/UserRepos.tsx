@@ -42,8 +42,8 @@ const UserRepos = () => {
           Voltar
         </button>
       </Link>
-      <h2 className="text-2xl font-semibold mb-4">Welcome, <span className="text-[red]">{username}</span>! These are my top repositories:</h2>
-      <div className="flex flex-wrap w-[50vw] gap-4 relative top-[12rem] left-[-4.6rem]">
+      <h2 className="text-2xl font-semibold mb-4 mt-10">Welcome, <span className="text-[red]">{username}</span>! These are my top repositories:</h2>
+      <div className="flex flex-wrap w-[50vw] gap-4 relative xl:top-[12rem] xl:left-[-4.6rem] lg:top-[12rem] lg:left-[-4.4rem] left-[4rem] top-[7rem]">
         {repos.map((repo) => (
           <div key={repo.id} className="bg-white rounded-lg shadow-md p-4 w-[300px]">
             <h3 className="text-xl font-semibold mb-2 text-black">{repo.name}</h3>

@@ -12,7 +12,7 @@ const Users = ({
   public_repos,
 }: UserProps) => {
   return (
-    <div className="flex items-center justify-center relative top-[80px]">
+    <div className="flex items-center justify-center relative xl:top-[80px] lg:top-[80px] md:top-[100px]">
       <div className=" shadow-md rounded-lg p-20">
         <img
           src={avatar_url}
