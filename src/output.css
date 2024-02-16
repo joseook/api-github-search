@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   padding: 0;
   margin: 0;
@@ -8,7 +12,9 @@
 }
 
 body{
-  background: #1e130c;
-  background: linear-gradient(to right, #9a8478, #1e130c);
+  background: linear-gradient(to right, #6190e8, #a7bfe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 1.5rem;
+  width: 100%;
 }
+
+
