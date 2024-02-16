@@ -1,6 +1,4 @@
-Claro! Aqui está o README.md em inglês com a descrição curta do projeto adicionada:
 
----
 
 # Github User Search
 
